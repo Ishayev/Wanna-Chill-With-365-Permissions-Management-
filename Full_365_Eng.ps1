@@ -3,7 +3,9 @@ Import-Module exchangeonlinemanagement
 $m=read-host "enter your admin mail"
 Connect-ExchangeOnline -UserPrincipalName $m
 
-#In each identity&user you would need to write only the username no need for the domain ##
+## In each identity&user you would need to write only the username no need for the domain ##
+## Identity-the user with the requted calendar/contact. ##
+## User-The user we want to have access to the calendar/contact.  ##
     
     function Show-Menu
 {
