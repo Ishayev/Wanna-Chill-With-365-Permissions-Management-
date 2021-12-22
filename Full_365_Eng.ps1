@@ -61,15 +61,15 @@ do
     Clear-Host
     Write-Host "================ Daniel Ishayev 365 Menu ================"
     
-    Write-Host "1: Get Author Permissions."
-    Write-Host "2: Get Contributor Permissions."
-    Write-Host "3: Get Editor Permissions."
-    Write-Host "4: Get None Permissions."
-    Write-Host "5: Get NonEditingAuthor Permissions."
-    Write-Host "6: Get Owner Permissions."
-    Write-Host "7: Get PublishingAuthor Permissions."
-    Write-Host "8: Get PublishingEditor Permissions."
-    Write-Host "9: Get Reviewer Permissions."
+    Write-Host "1: Add Author Permissions."
+    Write-Host "2: Add Contributor Permissions."
+    Write-Host "3: Add Editor Permissions."
+    Write-Host "4: Add None Permissions."
+    Write-Host "5: Add NonEditingAuthor Permissions."
+    Write-Host "6: Add Owner Permissions."
+    Write-Host "7: Add PublishingAuthor Permissions."
+    Write-Host "8: Add PublishingEditor Permissions."
+    Write-Host "9: Add Reviewer Permissions."
 }
 
 do
@@ -141,17 +141,17 @@ until ($selection1 -eq 'z')
     Clear-Host
     Write-Host "================ Daniel Ishayev 365 Menu ================"
     
-    Write-Host "1: Get Author Permissions."
-    Write-Host "2: Get Contributor Permissions."
-    Write-Host "3: Get Editor Permissions."
-    Write-Host "4: Get None Permissions."
-    Write-Host "5: Get NonEditingAuthor Permissions."
-    Write-Host "6: Get Owner Permissions."
-    Write-Host "7: Get PublishingAuthor Permissions."
-    Write-Host "8: Get PublishingEditor Permissions."
-    Write-Host "9: Get Reviewer Permissions."
-    Write-Host "10: Get AvailabilityOnly Permissions."
-    Write-Host "11: Get LimitedDetails Permissions."
+    Write-Host "1: Add Author Permissions."
+    Write-Host "2: Add Contributor Permissions."
+    Write-Host "3: Add Editor Permissions."
+    Write-Host "4: Add None Permissions."
+    Write-Host "5: Add NonEditingAuthor Permissions."
+    Write-Host "6: Add Owner Permissions."
+    Write-Host "7: Add PublishingAuthor Permissions."
+    Write-Host "8: Add PublishingEditor Permissions."
+    Write-Host "9: Add Reviewer Permissions."
+    Write-Host "10: Add AvailabilityOnly Permissions."
+    Write-Host "11: Add LimitedDetails Permissions."
 }
 
 do
